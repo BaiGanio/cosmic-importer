@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+.DS_Store
+
+# Caches: can be downloaded or built again (docs/INVENTORY.md, docs/APPROACH.md)
+downloads/
+out/

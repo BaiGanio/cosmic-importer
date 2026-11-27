@@ -1,0 +1,145 @@
+{
+  "$comment": "X01 D26. Edge cases in the source data. The importer (stage 2) reads this file and applies every entry. 'open' = our pick, not checked yet; report.md lists these first. 'verified' = a human checked it (verifiedBy, verifiedOn).",
+  "entries": [
+    {
+      "id": "EC01",
+      "slug": "messier-102",
+      "field": "identity",
+      "sources": {
+        "openngc": "row M102 is type Dup and points to M101 (NGC5457); no own object",
+        "wikidata": "Q14374 'Messier 102' = NGC 5866"
+      },
+      "value": "NGC5866",
+      "reason": "Most sky atlases use NGC 5866. With it the Messier set has 110 objects. OpenNGC row NGC5866 gives the facts.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC02",
+      "slug": "messier-31",
+      "field": "discovered",
+      "sources": {
+        "openngc": null,
+        "wikidata": "P575 = +1964-01 (month precision), Q2469"
+      },
+      "value": "964",
+      "reason": "Al-Sufi wrote it down in 964 (Book of Fixed Stars). The brief's example also says 964. Wikidata's 1964 is an error.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC03",
+      "slug": "messier-49",
+      "field": "distanceLy",
+      "sources": {
+        "openngc": null,
+        "wikidata": "Q13952: 2 normal-rank values that cite a published work: 52000000 ly = 52,000,000 ly, stated in Q488563; 16.07 Mpc = 52,413,269 ly, stated in Q57406191"
+      },
+      "value": null,
+      "reason": "D28: more than one value cites a published work. Empty until a human picks one of them.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC04",
+      "slug": "messier-63",
+      "field": "distanceLy",
+      "sources": {
+        "openngc": null,
+        "wikidata": "Q13981: 2 normal-rank values that cite a published work: 28900000 ly = 28,900,000 ly, stated in Q69162762; 9.04 Mpc = 29,484,502 ly, stated in Q66618244"
+      },
+      "value": null,
+      "reason": "D28: more than one value cites a published work. Empty until a human picks one of them.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC05",
+      "slug": "messier-67",
+      "field": "distanceLy",
+      "sources": {
+        "openngc": null,
+        "wikidata": "Q13997: 2 normal-rank values that cite a published work: 0.9 kpc = 2,935 ly, stated in Q66649425; 986.279 pc = 3,217 ly, stated in Q66618077"
+      },
+      "value": null,
+      "reason": "D28: more than one value cites a published work. Empty until a human picks one of them.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC06",
+      "slug": "messier-105",
+      "field": "distanceLy",
+      "sources": {
+        "openngc": null,
+        "wikidata": "Q14377: 2 normal-rank values that cite a published work: 36600000 ly = 36,600,000 ly, stated in Q57406191; 11.22 Mpc = 36,594,703 ly, stated in Q57406191"
+      },
+      "value": null,
+      "reason": "D28: more than one value cites a published work. Empty until a human picks one of them.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC07",
+      "slug": "messier-42",
+      "field": "category",
+      "sources": {
+        "openngc": "type Cl+N (cluster with nebula)",
+        "wikidata": "Q13903, see P31"
+      },
+      "value": "nebula",
+      "reason": "D31: the type has no clear category. Known and shown as the Orion Nebula; the cluster (Trapezium) sits inside it.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC08",
+      "slug": "messier-24",
+      "field": "category",
+      "sources": {
+        "openngc": "type *Ass (star association)",
+        "wikidata": "Q13618, see P31"
+      },
+      "value": "cluster",
+      "reason": "D31: the type has no clear category. A dense star field of the Milky Way. The brief has no better category.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC09",
+      "slug": "messier-40",
+      "field": "category",
+      "sources": {
+        "openngc": "type ** (double star)",
+        "wikidata": "Q13886, see P31"
+      },
+      "value": "star",
+      "reason": "D31: the type has no clear category. Two stars that only look close (an optical double). The brief has no double-star category.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    },
+    {
+      "id": "EC10",
+      "slug": "messier-73",
+      "field": "category",
+      "sources": {
+        "openngc": "type Other (other)",
+        "wikidata": "Q14009, see P31"
+      },
+      "value": "star",
+      "reason": "D31: the type has no clear category. An asterism of 4 stars. The brief has no asterism category.",
+      "status": "open",
+      "verifiedBy": null,
+      "verifiedOn": null
+    }
+  ]
+}

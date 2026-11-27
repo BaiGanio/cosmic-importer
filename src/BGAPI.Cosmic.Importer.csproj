@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- BGAPI X01 D24. Moved from BGAPI Tools/ on 2026-11-27 (BaiGanio/baiganio-platform#4). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>BGAPI.Cosmic.Importer</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Review/review.html" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
